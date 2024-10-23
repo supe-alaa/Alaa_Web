@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.0em;
+}
+
+.navigation a{
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: rgb(0, 102, 170);
+}
+
+section{
+    padding: 200px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background: url(images/Web\ back.jpg)no-repeat;
+    background-size: 2000px;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.main h2{
+    color: rgb(255, 255, 255);
+    font-size: 3.0em;
+    font-weight: 700;
+
+
+}
+
+
+.main h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 700;
+
+
+}
+
+.main-btn{
+    color: white;
+    background-color: rgb(0, 102, 255);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 1em 2em;
+    border-radius: 10px;
+    margin-bottom:10px;
+    margin-top: 10px;
+    transition: 0.2s ease;
+}
+
+.main-btn:hover{
+    background-color: rgb(0, 81, 202);
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color: white;
+    font-size: 1.8em;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 110, 255);
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards h2{
+    color: rgb(0, 110, 255);
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.card{
+   background-color: rgb(255, 255, 255);
+   width: 25em;
+   box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+   border-radius: 10px;
+   padding: 25px;
+   margin: 15px;
+   transition: 0.2s ease;
+   
+}
+
+.card:hover{
+   transform: scale(1.1);
+}
+
+.icon{
+    color: rgb(0, 110, 255);
+    font-size: 8em;
+    text-align: center;
+}
+
+.info h3{
+    color: rgb(0, 110, 255);
+    font-size: 2.5em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.info h4{
+    color: rgb(0, 110, 255);
+    font-size: 2.5em;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.info{
+    text-align: center;
+
+}
+
+.info a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.8em;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    font-size: 1em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 1em 2em;
+    border-radius: 10px;
+    margin-bottom:10px;
+    margin-top: 10px;
+    transition: 0.2s ease;
+}
+.info a:hover{
+    background-color: rgb(0, 81, 202);
+    transform: scale(1.1);
+}
+
+
+
+.info p{
+    color: rgb(0, 0, 0);
+    font-size: 1.9em;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.way{
+    background-color: rgb(255, 255, 255);
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.2s ease;
+}
+
+.Contact h2{
+    color: rgb(0, 110, 255);
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.info p2{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.Contact{
+    background-color: rgb(44, 44, 56);
+}
+
+
+.way:hover{
+    transform: scale(1.1);
+}
+ 
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
